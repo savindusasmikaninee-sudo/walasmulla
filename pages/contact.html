@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Walasmulla</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Get in touch with the Walasmulla community. Share your feedback, ask questions, or connect with local representatives."
+    />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <h1>🌾 Walasmulla 🌾</h1>
+        <p>A Rural Gem in the Heart of Hambantota District</p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="nav-container">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="geoportal.html">Geo Portal</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li><a href="landuse.html">Land & Water</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <main>
+        <section>
+          <h2>Get in Touch</h2>
+          <p>
+            We value your feedback and are always eager to connect with
+            visitors, researchers, and community members. Whether you have
+            questions about Walasmulla, suggestions for our community portal, or
+            wish to share your own experiences, we'd love to hear from you.
+          </p>
+
+          <div class="grid">
+            <div class="card">
+              <h4>📧 General Inquiries</h4>
+              <p>
+                Questions about Walasmulla's history, attractions, or community
+                information.
+              </p>
+            </div>
+            <div class="card">
+              <h4>🌾 Agricultural Information</h4>
+              <p>
+                Learn about farming practices, crop cycles, and agricultural
+                opportunities in the region.
+              </p>
+            </div>
+            <div class="card">
+              <h4>🏛️ Cultural Events</h4>
+              <p>
+                Information about festivals, celebrations, and cultural
+                activities throughout the year.
+              </p>
+            </div>
+            <div class="card">
+              <h4>🤝 Community Engagement</h4>
+              <p>
+                Opportunities to connect with local organizations and community
+                development initiatives.
+              </p>
+            </div>
+          </div>
+
+          <h2>Send Us Your Feedback</h2>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a topic...</option>
+                <option value="general">General Inquiry</option>
+                <option value="tourism">Tourism Information</option>
+                <option value="agriculture">Agricultural Matters</option>
+                <option value="culture">Cultural Events</option>
+                <option value="business">Business Opportunities</option>
+                <option value="education">Educational Programs</option>
+                <option value="feedback">Website Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Please share your thoughts, questions, or feedback about Walasmulla..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn-primary">Send Message</button>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <h3>📍 Community Information</h3>
+            <p>
+              <strong>Location:</strong> Walasmulla, Hambantota District,
+              Southern Province, Sri Lanka
+            </p>
+            <p><strong>Postal Code:</strong> 82400</p>
+            <p><strong>Administrative Division:</strong> Hambantota District</p>
+            <p><strong>Province:</strong> Southern Province</p>
+          </div>
+
+          <div class="highlight">
+            <h3>🌟 Visit Walasmulla</h3>
+            <p>
+              Experience the authentic charm of rural Sri Lankan life. From our
+              golden paddy fields during harvest season to the vibrant cultural
+              festivals throughout the year, Walasmulla offers visitors a
+              genuine glimpse into traditional Sri Lankan community life. Plan
+              your visit during the cultivation seasons (April-August for Yala,
+              October-February for Maha) to witness the agricultural cycle that
+              defines our community rhythm.
+            </p>
+          </div>
+
+          <h3>🚌 Getting Here</h3>
+          <p>
+            Walasmulla is accessible via well-maintained roads connecting to
+            Beliatta, Kirama, Hakmana, and Weeraketiya. Public transportation is
+            available from major towns in the Southern Province, and the town
+            serves as a convenient stopping point for travelers exploring the
+            region's rural attractions.
+          </p>
+
+          <div class="page-nav">
+            <a href="landuse.html" class="prev">← Previous: Land & Water</a>
+            <a href="../index.html" class="next">Back to Home →</a>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="content">
+        <p>
+          &copy; 2025 Walasmulla Community Portal | Preserving Heritage,
+          Embracing Progress
+        </p>
+        <p>🌾 Where Tradition Meets Tomorrow 🌾</p>
+      </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script>
+      // Simple form handling
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Get form data
+          const formData = new FormData(this);
+          const data = {};
+          for (let [key, value] of formData.entries()) {
+            data[key] = value;
+          }
+
+          // Show success message (in a real app, you'd send this to a server)
+          alert(
+            "Thank you for your message! We appreciate your interest in Walasmulla and will get back to you soon."
+          );
+
+          // Reset form
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
